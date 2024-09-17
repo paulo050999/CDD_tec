@@ -7,6 +7,6 @@ for i in range (numero+1):
 #numero = int(input("Digite o número 5"))
 #for x in range(1,num+1):
     #for x in range(i):
-        #print("e", end = " ")
+        #print(i, end = " ")
 
 
