@@ -9,8 +9,20 @@ print(p2)
 
 
 p2.comer()
+p2.parar_de_comer()
 p2.estudar()
 p2.parar_de_estudar()
-p2.dormir()
-p2.estudar()
+p2.andar()
 p2.jogar_videogame()
+p1.dormir()
+p1.jogar_videogame()
+
+g1 = Gato("Astolfo", "lilaz")
+v1 = Vaca("Creuza", "mariscada")
+c1 = Cachorro("Junin", "Caramelo")
+
+
+print(g1.nome, g1.cor)
+print(v1.nome, v1.cor)
+print(c1.nome, c1.cor)
+g1.comer()

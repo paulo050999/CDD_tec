@@ -15,6 +15,14 @@ class Pessoa:
             print(f"{self.nome} está jogando videogame")
         else:
             print(f"{self.nome} não gosta de jogar videogame")
+        if self.dormindo:
+            print(f"{self.nome} não vai jogar pois está dormindo")
+        elif self.comendo:
+            print(f"{self.nome} não pode jogar pois está comendo")
+        elif self.andando:
+            print(f"{self.nome} não pode jogar pois está andando")
+        elif self.estudando:
+            print(f"{self.nome} não pode jogar pois está estudando, deve manter o foco")
 
     def andar(self):
         if self.dormindo:
@@ -93,3 +101,60 @@ class Pessoa:
             self.estudando=False
         else:
             print(f"{self.nome} não está estudando")
+
+class animal:
+    def __init__  (self, nome, cor, comendo=False):
+        self.nome = nome
+        self.cor = cor
+        self.comendo = comendo
+    def comer(self):
+        if self.comendo:
+            print(f"{self.nome} está comendo")
+        else:
+            print(f"{self.nome} vai começar a comer")
+            self.comendo = True
+class Gato(animal):
+    def __init__(self,nome,cor, miando=False, comendo=False):
+        super().__init__(nome,cor)
+        self.miando = miando
+        self.comendo = comendo
+    def miar(self):
+        if self.miando:
+            print(f"{self.nome} está miando")
+        else:
+            print(f"{self.nome} vai começar a miar")
+            self.miando = True
+    def comer(self, alimento):
+        print(f"{self.nome} vai comer {alimento}")
+
+class Vaca(animal):
+    def __init__(self,nome,cor, mujindo=False):
+        super().__init__(nome,cor)
+        self.mujindo = mujindo
+    def mujir(self):
+        if self.mujindo:
+            print(f"{self.nome} está mujindo")
+        else:
+            print(f"{self.nome} vai começar a mujir")
+            self.mujindo = True
+class Cachorro(animal):
+    def __init__(self,nome,cor, latindo=False):
+        super().__init__(nome,cor, comendo=False)
+        self.latindo = latindo
+    def latir(self):
+        if self.latindo:
+            print(f"{self.nome} está latindo")
+        else:
+            print(f"{self.nome} vai começar a latir")
+            self.latindo = True
+
+class Coelho(animal):
+    def __init__(self,nome,cor, pulando=False):
+        super().__init__(nome,cor)
+        self.pulando = pulando
+    def pular(self):
+        if self.pulando:
+            print(f"{self.nome} está latindo")
+        else:
+            print(f"{self.nome} vai começar a latir")
+            self.pulando = True
