@@ -28,7 +28,7 @@ Scanner entrada = new Scanner(System.in);
 		}else {
 				System.out.println("Não é dia da semana");
 			}
-
+		entrada.close();
 	}
 
 }

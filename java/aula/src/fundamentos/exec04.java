@@ -17,6 +17,7 @@ public class exec04 {
 		
 		System.out.println(media + "A média é");
 		
+		entrada.close();
 		
 
 	}

@@ -1,6 +1,6 @@
-package com.exemplo.meupacote;
+package fundamentos;
 
-public class operadores_unarios_3 {
+public class Operadores_unarios_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
