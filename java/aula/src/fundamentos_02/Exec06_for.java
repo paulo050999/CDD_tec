@@ -19,7 +19,7 @@ public class Exec06_for {
 			
 	}
 		System.out.println("A soma dos múltiplos de 3 até 20 é: " + Soma3);
-		 System.out.println("A soma dos múltiplos de 5 até 20 é: " + Soma5);
-		 System.out.println("A soma dos múltiplos de 3 e 5 é: " + SomaMultiplos);
+		System.out.println("A soma dos múltiplos de 5 até 20 é: " + Soma5);
+		System.out.println("A soma dos múltiplos de 3 e 5 é: " + SomaMultiplos);
 	}
 }
