@@ -1,4 +1,4 @@
-package com.exemplo.meupacote;
+package fundamentos;
 
 public class Variaveis {
 
@@ -10,4 +10,9 @@ public class Variaveis {
 		final double PI; //Declarando constante PI
 	}
 
-}
+
+
+		
+	}
+
+

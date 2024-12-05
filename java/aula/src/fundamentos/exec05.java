@@ -18,5 +18,4 @@ public class exec05 {
 				System.out.println("Caractere Inválido");
 			}
 			}
-	
 }

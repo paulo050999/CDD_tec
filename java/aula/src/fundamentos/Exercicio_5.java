@@ -1,4 +1,4 @@
-package com.exemplo.meupacote;
+package fundamentos;
 
 public class Exercicio_5 {
 
